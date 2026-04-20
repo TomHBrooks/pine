@@ -1,0 +1,7 @@
+#ignore PyPI generated items
+build
+dist
+*.egg-info
+
+#python
+*.pyc
