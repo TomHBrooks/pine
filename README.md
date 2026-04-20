@@ -82,7 +82,7 @@ pine handles the iteration and nesting.
 3. Create a function which takes a list of inputs as it's only argument.
 4. Process your inputs by nesting them into an array, and passing this, and your function to pine.resolve()
 5. Store the output and convert it to a grasshopper tree with ghpythonlib.treehelpers.tree_to_list(), pass this to your nodes output.
-6. 
+
 <img src="https://github.com/TomHBrooks/pine/blob/main/examples/Grasshopper/Images/pine_Grasshopper_node.png">
 
 ```python
