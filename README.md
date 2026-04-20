@@ -102,7 +102,7 @@ a = th.list_to_tree(result)
 
 ## Grasshopper Plugin
 
-To try the nodes in examples see [[Grasshopper Plugin]("/grasshopper/pine.Components.gha")](https://github.com/TomHBrooks/pine/blob/main/Grasshopper/pine.Components.gha)
+To try the nodes in examples see [Grasshopper Plugin](https://github.com/TomHBrooks/pine/blob/main/Grasshopper/pine.Components.gha)
 
 ## Status
 
