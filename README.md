@@ -82,8 +82,8 @@ pine handles the iteration and nesting.
 3. Create a function which takes a list of inputs as it's only argument.
 4. Process your inputs by nesting them into an array, and passing this, and your function to pine.resolve()
 5. Store the output and convert it to a grasshopper tree with ghpythonlib.treehelpers.tree_to_list(), pass this to your nodes output.
-
-[<img src=["https://github.com/TomHBrooks/pine/blob/main/examples/Grasshopper/Images/Pine_Example_01.png">]
+6. 
+<img src="https://github.com/TomHBrooks/pine/blob/main/examples/Grasshopper/Images/pine_Grasshopper_node.png">
 
 ```python
 # requirements: pine
@@ -111,9 +111,10 @@ Grasshopper plugin in development.
 
 ## Why pine?
 
-pine provides an intuitive way of working with data trees in python and grasshopper.
+pine provides an intuitive way of working with data trees in python simiar to Grasshopper.
 
-pine used in Grasshopper allows for automatic branch matching, which can improve node graph
-logic.
+pine used in Grasshopper allows for automatic branch matching, which can improve node graph flow.
 
-[<img src="https://github.com/TomHBrooks/pine/blob/main/examples/Grasshopper/Images/pine_Grasshopper_node.png">]
+E.g. Maintaining branch logic without splitting and re-merging the data tree when transforming geometry 
+
+<img src="https://github.com/TomHBrooks/pine/blob/main/examples/Grasshopper/Images/Pine_Example_01.png">
